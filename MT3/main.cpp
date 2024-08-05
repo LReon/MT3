@@ -117,7 +117,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		VectorScreenPrintf(0, kColumnWidth * 2, resultMultiply, "  : Multiply");
 		Novice::ScreenPrintf(0, kColumnWidth * 3, "%.02f  : Dot", resultDot);
 		Novice::ScreenPrintf(0, kColumnWidth * 4, "%.02f  : Length", resultLength);
-		VectorScreenPrintf(0, kColumnWidth * 5, resultNormalize, "  : Nomalize");
+		VectorScreenPrintf(0, kColumnWidth * 5, resultNormalize, "  : Normalize");
 
 		///
 		/// ↑描画処理ここまで
